@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+.container-log-in{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.log-in{
+    width: 28%;
+    height: 50vh;
+    /* border: 2px solid black; */
+    box-shadow: 2px 4px 10px rgb(201, 200, 200);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+}
+#h2-log-in{
+    padding-top: 20px;
+}
+.email-password-button{
+    width: 330px;
+    height: 30px;
+    margin-top: 20px;
+    /* box-shadow: 2px 4px 10px rgb(201, 200, 200); */
+    border-radius: 7px;
+    border: 1px solid black;
+}
+#log-in-button{
+    background-color: blue;
+    cursor: pointer;
+}
+#log-in-button:hover{
+    background-color: rgb(0, 0, 164);
+}
+.modal {
+    display: none; /* מוסתר כברירת מחדל */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* רקע כהה */
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#modal-message {
+    font-size: 18px;
+    color: red;
+}
+
+#container-home-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    
+}
+
+#container-home-page > #nav-home-page{
+    width: 100%;
+    height: 50px;
+    box-shadow: 2px 4px 10px rgb(201, 200, 200);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+#container-home-page > #nav-home-page > #ul-nav{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+#container-home-page > #nav-home-page > #ul-nav > .li-nav{
+    text-align: center;
+    padding-left: 30px;
+}
+#button-dark{
+    border: 2px  solid orange;
+    background-color: transparent;
+    color: orange;
+    height: 30px;
+    width: 70px;
+    margin-top: 10px;
+    border-radius: 7px;
+
+
+}
+#log-in{
+    background-color: transparent;
+    border: none;
+}
+
+#main-home-page{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#div-cards {
+    margin-top: 55px;
+    width: 50%; 
+    box-shadow: 2px 4px 10px rgb(201, 200, 200);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; 
+}
+
+#container-div-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap; 
+}
+
+.div-img {
+    width: 32%;
+    box-shadow: 2px 4px 10px rgb(201, 200, 200);
+    border-radius: 7px;
+    overflow: hidden; 
+    padding: 7px;
+}
+
+
+.img-cards{
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+}
+
+
+
+
+
+

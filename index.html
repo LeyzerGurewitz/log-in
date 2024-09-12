@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Log in</title>
+</head>
+<body>
+    <div class="container-log-in">
+        <div class="log-in">
+            <div id="div-h2">
+                <h2 id="h2-log-in">Login</h2>
+            </div>
+            <div id="div-input-email">
+                <input class="email-password-button" id="log-in-email" type="email" placeholder="email">
+            </div>
+            <div id="div-input-password">
+                <input class="email-password-button" id="log-in-password" type="password" placeholder="password">
+            </div>
+            <div id="div-button">
+                <button class="email-password-button" id="log-in-button">Enter</button>
+            </div>
+        </div>
+    </div>
+    <div id="error-modal" class="modal">
+        <div class="modal-content">
+            <span id="modal-message">Incorrect details, please try again!</span>
+        </div>
+    </div>
+    <div id="container-home-page">
+        <nav id="nav-home-page">
+            <button id="button-dark" class="">Light/Dark</button>
+            <ul id="ul-nav">
+                <li class="li-nav">Home</li>
+                <li class="li-nav">Form</li>
+                <li class="li-nav">Cards</li>
+            </ul>
+            <button id="log-in">login</button>
+        </nav>
+        <main id="main-home-page">
+            <div id="div-cards">
+                <h2 id="h2-cards" >Your Cards</h2>
+                <div id="container-div-img">
+                    <div class="div-img">
+                        <h3 class="h3-img">cat</h3>
+                        <img class="img-cards" src="images/cat.jpeg" alt="cat">
+                        <p class="p-cards">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="div-img">
+                        <h3 class="h3-img">cat</h3>
+                        <img class="img-cards" src="images/cat.jpeg" alt="cat">
+                        <p class="p-cards">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="div-img">
+                        <h3 class="h3-img">cat</h3>
+                        <img class="img-cards" src="images/cat.jpeg" alt="cat">
+                        <p class="p-cards">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script/main.js"></script>
+</body>
+</html>
